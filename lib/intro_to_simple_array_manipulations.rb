@@ -24,3 +24,5 @@ def using_uniq
 end
 def using_flatten
 end
+using_delete
+end
