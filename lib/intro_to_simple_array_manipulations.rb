@@ -8,23 +8,29 @@ def using_pop(array)
   array.pop
 end
 def pop_with_args(array)
-  array.pop_with_args
+  array.pop(2)
 end
 def using_shift(array)
   array.shift
 end
 def shift_with_args(array)
-  array.shift_with_args
+  array.shift(2)
 end
-def using_concat
+def using_concat(array)
+  array.concat
 end
-def using_insert
+def using_insert(array)
+  array.insert
 end
-def using_uniq
+def using_uniq(array)
+  array.uniq
 end
-def using_flatten
+def using_flatten(array)
+  array.flatten
 end
-def using_delete
+def using_delete(array)
+  array.delete
 end
-def using_delete_at
+def using_delete_at(array)
+  array.delete_at
 end
