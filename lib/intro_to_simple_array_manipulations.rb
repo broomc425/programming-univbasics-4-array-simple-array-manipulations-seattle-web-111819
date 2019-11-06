@@ -24,5 +24,7 @@ def using_uniq
 end
 def using_flatten
 end
-using_delete
+def g_delete
+end
+def using_delete_at
 end
